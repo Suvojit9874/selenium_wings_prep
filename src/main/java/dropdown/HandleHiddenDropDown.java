@@ -29,7 +29,13 @@ public class HandleHiddenDropDown {
 		driver.findElement(By.xpath("//span[normalize-space()='PIM']")).click(); //PIM
 		
 		//clicked on dropdown
-		driver.findElement(By.xpath("//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[6]/div[1]/div[2]/div[1]/div[1]")).click();
+		driver.findElement(By.xpath("//body/div[@id='app']/div"
+				+ "[@class='oxd-layout']/div[@class='oxd-layout-container']"
+				+ "/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']"
+				+ "/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']"
+				+ "/form[@class='oxd-form']/div[@class='oxd-form-row']"
+				+ "/div[@class='oxd-grid-4 orangehrm-full-width-grid']"
+				+ "/div[6]/div[1]/div[2]/div[1]/div[1]")).click();
 		Thread.sleep(5000);
 		
 		

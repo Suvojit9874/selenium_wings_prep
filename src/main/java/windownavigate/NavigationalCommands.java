@@ -12,7 +12,7 @@ public class NavigationalCommands {
 	
 		WebDriver driver=new ChromeDriver();
 		
-		//driver.get("https://demo.nopcommerce.com/");  // accepts URL only in the string format
+		driver.get("https://demo.nopcommerce.com/");  // accepts URL only in the string format
 		
 			
 		//URL myurl=new URL("https://demo.nopcommerce.com/");
